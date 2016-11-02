@@ -1,0 +1,39 @@
+{
+  "name": "blank-loader",
+  "version": "0.0.0",
+  "description": "Webpack loader for returning blank contents.",
+  "license": "MIT",
+  "repository": "egoist/blank-loader",
+  "author": {
+    "name": "EGOIST",
+    "email": "0x142857@gmail.com",
+    "url": "github.com/egoist"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "jest && eslint *.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "webpack",
+    "loader",
+    "blank",
+    "strip"
+  ],
+  "devDependencies": {
+    "eslint": "latest",
+    "eslint-config-egoist": "latest",
+    "jest-cli": "^15.1.1",
+    "webpack": "^1.13.3"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "eslintConfig": {
+    "extends": "egoist/esnext"
+  }
+}
