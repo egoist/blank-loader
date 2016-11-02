@@ -9,7 +9,7 @@ When your want to strip out the contents of specific files from your bundle file
 ## Install
 
 ```bash
-$ npm install --save blank-loader
+$ npm install -D blank-loader
 ```
 
 ## Usage
